@@ -38,6 +38,12 @@ All versions use the same microcontroller: **XIAO ESP32C3**
 **ST7789V2:**<br>
 ![Display in Action](images/ST7789V2.jpg)
 
+**ePaper display case:**<br>
+![ePaper case](images/epaper_case.jpg)
+
+**OLED display case:**<br>
+![OLED case](images/oled_case.jpg)
+
 
 ## Hardware Requirements
 
@@ -406,6 +412,7 @@ Potential enhancements (not currently planned):
 - Battery power option
 - Mobile app companion
 - Push notifications for low occupancy
+- Improve cases design to make a portable display
 
 ## Contributing
 

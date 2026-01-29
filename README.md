@@ -357,7 +357,7 @@ delay(180000);
 
 ### Adding More Gym Locations
 
-1. Find your gym's location ID from https://visits.evofitness.ch/
+1. Find your gym's location ID from https://visits.evofitness.ch/ (you need to see network requests from browser developers tools)
 2. Add a new API URL variable
 3. Add HTTP request code in `loop()`
 4. Update display logic to show additional location
@@ -379,30 +379,6 @@ else if (value < 15) return ORANGE_COLOR;
 else return RED;
 ```
 
-## Version History
-
-- **v4.0** (Nov 2025) - ePaper version with partial refresh
-- **v3.0** (Jan 2026) - Added CME Space Weather Monitor (separate project)
-- **v1.1** (Jan 2026) - ST7789V2 LCD version with optimized refresh
-- **v1.0** - Initial OLED version
-
-## Project Structure
-
-```
-evofitness-gym-attendance-display/
-├── OLED/
-│   └── OLED.ino                    # OLED version
-├── ST7789V2/
-│   ├── ST7789V2.ino                # LCD version
-│   ├── evo.cpp                     # EvoFitness logo data
-│   ├── evo.h                       # Logo header
-│   └── secrets.h                   # WiFi credentials (template)
-├── ePaper/
-│   └── ePaper.ino                  # E-Paper version
-├── README.md                       # This file
-├── LICENSE                         # MIT License
-└── .gitignore                      # Git ignore rules
-```
 
 ## Use Cases
 

@@ -50,22 +50,25 @@ All versions use the same microcontroller: **XIAO ESP32C3**
 - **Display:** 0.96" SSD1306 OLED (128x64 pixels)
 - **Interface:** I2C
 - **Pros:** Compact, crisp text, low power
-- **Cons:** Monochrome only, smaller screen
+- **Cons:** Blue/Yellow only, smaller screen
+- **Link:** https://www.seeedstudio.com/Grove-OLED-Yellow-Blue-Display-0-96-SSD1315-V1-0-p-5010.html
+- **Groove connector adapter (optional, recommended):** https://www.seeedstudio.com/Grove-Shield-for-Seeeduino-XIAO-p-4621.html?qid=NMVHO5_czjgv2bd_1769697054111
 
 #### ST7789V2 LCD Version
 - **Display:** 1.69" ST7789V2 LCD (240x280 pixels)
 - **Interface:** SPI
-- **Typical Cost:** ~$10-15
 - **Pros:** Full color, logo display, larger
 - **Cons:** Higher power consumption
+- **Link:** https://www.seeedstudio.com/1-69inch-240-280-Resolution-IPS-LCD-Display-Module-p-5755.html
 
 #### ePaper Version
 - **Display:** 2.13" E-Ink (250x122 pixels)
 - **Compatible:** Seeed Studio XIAO expansion board with e-paper
 - **Interface:** SPI
-- **Typical Cost:** ~$15-25
 - **Pros:** Lowest power, readable in sunlight, no screen burn-in
 - **Cons:** Slower refresh, monochrome
+- **Link epaper display:** https://www.seeedstudio.com/2-13-Monochrome-ePaper-Display-with-122x250-Pixels-p-5778.html
+- **Link adapter board:** https://www.seeedstudio.com/ePaper-Breakout-Board-p-5804.html
 
 ## Wiring Connections
 

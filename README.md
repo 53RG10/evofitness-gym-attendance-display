@@ -32,7 +32,12 @@ All versions use the same microcontroller: **XIAO ESP32C3**
 
 ## Photos
 
-*Project photos coming soon*
+OLED: 
+![Display in Action](img/oled.jpg)
+
+ST7789V2: 
+![Display in Action](img/ST7789V2.jpg)
+
 
 ## Hardware Requirements
 

@@ -355,9 +355,19 @@ delay(60000);
 delay(180000);
 ```
 
+## Finding Your Gym Location ID
+
+1. Open https://visits.evofitness.ch/ in your browser
+2. Open Developer Tools (F12 or right-click → Inspect)
+3. Go to the "Network" tab
+4. Select your gym from the dropdown
+5. Look for API calls to `/api/v1/locations/[ID]/current`
+6. Copy the ID (long UUID format like `cc3013fa-9f58-4056-8731-40ed4058663a`)
+7. Replace the ID in the code with your gym's ID
+
 ### Adding More Gym Locations
 
-1. Find your gym's location ID from https://visits.evofitness.ch/ (you need to see network requests from browser developers tools)
+1. Find your gym's location ID from https://visits.evofitness.ch/
 2. Add a new API URL variable
 3. Add HTTP request code in `loop()`
 4. Update display logic to show additional location

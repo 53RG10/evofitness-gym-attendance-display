@@ -38,10 +38,10 @@ All versions use the same microcontroller: **XIAO ESP32C3**
 **ST7789V2:**<br>
 ![Display in Action](images/ST7789V2.jpg)
 
-**ePaper display case:**<br>
+**ePaper display case:** (work in progress) 🚧<br>
 ![ePaper case](images/epaper_case.jpg)
 
-**OLED display case:**<br>
+**OLED display case:** (work in progress) 🚧<br>
 ![OLED case](images/oled_case.jpg)
 
 
